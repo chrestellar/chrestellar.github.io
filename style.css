@@ -16,13 +16,13 @@ body {
 }
 
 /* Navigation styles */
-#navbar {
+#menubar {
   grid-area: menu;
   background-color: #000;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
-#navbar a {
+#menubar a {
   text-decoration: none;
   color: #fff;
   margin: 10px;
@@ -49,7 +49,7 @@ body {
 .food-menu,
 .contact {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px;
   font-size: 18px;
   color: #000;
@@ -58,7 +58,7 @@ body {
 /* Footer styles */
 .footer {
   grid-area: footer;
-  text-align: center;
+  text-align: left;
   background-color: #000;
   color: #fff;
   padding: 10px;
