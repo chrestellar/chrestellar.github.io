@@ -19,7 +19,7 @@ body {
 #menubar {
   grid-area: menu;
   background-color: #000;
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
 #menubar a {
