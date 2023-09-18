@@ -3,12 +3,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
 }
 
 /* Header styles */
 .header {
+  grid-area: header;
   background-color: #000;
   text-align: center;
   padding: 10px;
@@ -18,6 +17,7 @@ body {
 
 /* Navigation styles */
 #navbar {
+  grid-area: menu;
   background-color: #000;
   text-align: center;
   padding: 10px;
@@ -30,7 +30,16 @@ body {
 
 /* Main content styles */
 .main {
+  grid-area: main;
   background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "story"
+    "food-menu"
+    "contact";
+  gap: 10px;
   padding: 10px;
   color: #000;
 }
@@ -39,7 +48,7 @@ body {
 .story,
 .food-menu,
 .contact {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px;
   font-size: 18px;
@@ -48,6 +57,7 @@ body {
 
 /* Footer styles */
 .footer {
+  grid-area: footer;
   text-align: center;
   background-color: #000;
   color: #fff;
