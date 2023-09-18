@@ -1,16 +1,16 @@
-.item1 {
+.header {
   grid-area: header;
 }
-.item2 {
+.menu {
   grid-area: menu;
 }
-.item3 {
+.main {
   grid-area: main;
 }
-.item4 {
+.right {
   grid-area: right;
 }
-.item5 {
+.footer {
   grid-area: footer;
 }
 .grid-container {
