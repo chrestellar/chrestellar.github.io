@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+p {
+    border: 2px solid rgb(243, 209, 135);
+    }
+
+    span {
+    background-color: lightblue;
+    }
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column-wrap;
+    flex-grow: initial;
+    column-gap: 1%;
+}
+
+#greypic, #whitepic {
+    height: 125px;
+
+}
+
+#blackpic {
+    height: 125px;
+    width: 200px;
+
+}
+
+#whitepic {
+    height: 125px;
+    width: 145px;
+}
