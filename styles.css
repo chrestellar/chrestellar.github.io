@@ -8,6 +8,12 @@
   align-items: left; /* left align the content (header, button) */
 }
 
+body {
+  background: #000000;
+  color: white;
+  font-family: fantasy;
+}
+
 #lonelynomad {
   font-size: 25px;
   font-weight: bold;
@@ -16,9 +22,9 @@
 #solivagant {
   font-size: 13px;
 }
-#headerpic {
+#headerpicture {
   width: 1700px;
-
+  margin-right: 40px;
 }
 .headers {
   width: 900px; /* Set a fixed width for the header and pic */
@@ -52,12 +58,6 @@ li:hover {
   background-color: #b6691e;
 }
 
-
-body {
-  background: #000000;
-  color: white;
-  font-family: fantasy;
-}
 
 hr {
   width: 100%;
@@ -96,5 +96,3 @@ h6 {
   float: right;
   text-align: center;
 }
-
-
