@@ -67,7 +67,7 @@ h6 {
   grid-template-rows: auto auto auto auto;
 }
 
-#snowmobile {
+.grid-container img {
   width: 100%; /* Make the image fill the container */
   max-width: 300px; /* Set a maximum width for the image */
 }
