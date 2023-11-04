@@ -7,8 +7,9 @@
 body {
   background: black;
   font-family: fantasy;
+
 }
- 
+
 main {
   color: white; 
   margin: 40px; /* Remove default margin */
