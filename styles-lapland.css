@@ -1,7 +1,6 @@
 #backhome {
   color: white;
   text-align: left;
-  margin: 40px;
 }
 
 body {
@@ -12,11 +11,15 @@ body {
 
 main {
   color: white; 
-  margin: 40px; /* Remove default margin */
+  margin: 40px auto; /* Center horizontally with auto margin */
   margin-top: 20px;
   text-align: center;
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items vertically */
   max-width: 800px;
 }
+
 
 .image-container-lapland {
   position: relative;
