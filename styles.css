@@ -1,39 +1,49 @@
+.flex-container-header {
+  display: flex;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column; /* Adjust the flex direction */
+  align-items: left; /* left align the content (header, button) */
+}
+
 #lonelynomad {
-  font-size: 25px;
+  font-size: 25 px;
   font-weight: bold;
 }
 
 #solivagant {
-  font-size: 13px;
+  font-size: 13 px;
 }
 #headerpic {
   background: #000000;
-  width: 1500px;
+  width: 1700 px;
 
 }
 .headers {
-  width: 500px; 
+  width: 500 px; /* Set a fixed width for the header and pic */
 }
 
-.nav-title > ul {
-  color: black;
+.nav-wrapper {
+  width: 150 px; /* Set a fixed width for the wrapper - li box cover */
+
 }
 
 li {
-  margin-top: 5px; /*between the buttons*/ 
-  margin-right: 5px;/*between the buttons and big picture*/
-  background-color: #ede0d7;
+  margin-bottom: 5 px; /* Adjust margin between buttons*/
+  background-color: #ea8d4c;
   text-align: center;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 5 px;
   list-style-type: none;
-  box-sizing: 30px;
-  position: relative; left:-40px; top:-30px;
+  position: relative; left:-40 px; top:-30 px;
+  
 
 }
 
 li:hover {
-  background-color: #6b3705;
+  background-color: #b6691e;
 }
 
 
@@ -46,11 +56,11 @@ body {
 
 a {
   color: white;
-
+  text-decoration: none;
 
 }
 hr {
-  width: 100%;
+  width: 100 %;
 }
 
 p {
@@ -60,24 +70,24 @@ h1,h2 {
   font-weight: bold;
 }
 h1 {
-  font-size: 25px;
+  font-size: 25 px;
   color: white;
 
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 28 px;
   text-decoration: underline;
   color: white;
 }
 
 p {
-  font-size: 20px;
+  font-size: 20 px;
 
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 15 px;
   text-decoration: underline;
   color: white;
 }
@@ -87,7 +97,4 @@ h6 {
   text-align: center;
 }
 
-.flex-container-header {
-  display: flex;
-}
 
