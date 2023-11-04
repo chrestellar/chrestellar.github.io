@@ -9,35 +9,39 @@
 }
 
 #lonelynomad {
-  font-size: 25 px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 #solivagant {
-  font-size: 13 px;
+  font-size: 13px;
 }
 #headerpic {
   background: #000000;
-  width: 1700 px;
+  width: 1700px;
 
 }
 .headers {
-  width: 500 px; /* Set a fixed width for the header and pic */
+  width: 500px; /* Set a fixed width for the header and pic */
 }
 
 .nav-wrapper {
-  width: 150 px; /* Set a fixed width for the wrapper - li box cover */
+  width: 150px; /* Set a fixed width for the wrapper - li box cover */
+}
 
+
+.nav-title > li {
+  color: #020000;
 }
 
 li {
-  margin-bottom: 5 px; /* Adjust margin between buttons*/
+  margin-bottom: 5px; /* Adjust margin between buttons*/
   background-color: #ea8d4c;
   text-align: center;
   font-weight: bold;
-  border-radius: 5 px;
+  border-radius: 5px;
   list-style-type: none;
-  position: relative; left:-40 px; top:-30 px;
+  position: relative; left:-40px; top:-30px;
   
 
 }
@@ -60,7 +64,7 @@ a {
 
 }
 hr {
-  width: 100 %;
+  width: 100%;
 }
 
 p {
@@ -70,24 +74,24 @@ h1,h2 {
   font-weight: bold;
 }
 h1 {
-  font-size: 25 px;
+  font-size: 25px;
   color: white;
 
 }
 
 h2 {
-  font-size: 28 px;
+  font-size: 28px;
   text-decoration: underline;
   color: white;
 }
 
 p {
-  font-size: 20 px;
+  font-size: 20px;
 
 }
 
 h6 {
-  font-size: 15 px;
+  font-size: 15px;
   text-decoration: underline;
   color: white;
 }
