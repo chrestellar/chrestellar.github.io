@@ -43,9 +43,16 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 6vw; /* Set font size using vw unit for responsiveness */
+  font-size: 7vw; /* Set font size using vw unit for responsiveness */
   color: white;
   font-weight: bold;
+  font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    font-size: 6vw; /* Use vw for smaller screens */
+  }
 }
 
 article {
