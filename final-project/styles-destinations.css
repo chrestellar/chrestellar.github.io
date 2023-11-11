@@ -28,6 +28,21 @@ nav a:hover {
   color: #a78875;
 }
 
+/* NAVIGATION CSS ENDS */
+
+/* BANNER CSS STARTS */
+
+#banner-picture-desktop {
+  max-width: 100%;
+  height: auto;
+}
+
+#banner-picture-mobile {
+  display: none; /* Hide the mobile image by default */
+}
+
+/* BANNER CSS ENDS */
+
 #featured {
   font-family: myFirstFont;
   color: black;
