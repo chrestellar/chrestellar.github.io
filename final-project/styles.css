@@ -69,9 +69,12 @@ img {
 #featured {
   font-family: myFirstFont;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
 }
-
+h3 {
+  font-size: 25px;
+  font-family: fantasy;
+}
 p {
   font-size: 15px;
 }
@@ -101,6 +104,8 @@ p {
 
 .featured-posts-container > div:hover {
   border-color: black;
+  color: #a78875;
+
 }
 
 .first-block-container-inner, .second-block-container-inner, .third-block-container-inner {
@@ -110,14 +115,12 @@ p {
   margin: auto; /* Center the inner box using the margin: auto; technique */
   margin-top: 15px;
   align-items: center;
-  opacity: 70%;
-}
-
-.first-block-container-inner:hover, .second-block-container-inner:hover, .third-block-container-inner:hover {
   opacity: 100%;
 }
 
-/* adjust content to move a bit up */ 
+.first-block-container-inner img:hover, .second-block-container-inner img:hover, .third-block-container-inner img:hover {
+  opacity: 70%;
+}
 
 
 /* adjust pictures of all 3 squares */ 
