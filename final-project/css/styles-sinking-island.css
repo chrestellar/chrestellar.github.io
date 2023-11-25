@@ -1,0 +1,64 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../Eyesome-Script.otf);
+} /* import the eyesome script font */
+
+
+/* NAVIGATION CSS STARTS */
+nav {
+  background-color: #FCFAF9;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 23px;
+  font-family: fantasy;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #a78875;
+}
+
+/* BANNER CSS STARTS */
+
+#banner-picture-desktop {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #banner-picture-mobile {
+    display: none; /* Hide the mobile image by default */
+  }
+  
+  /* BANNER CSS ENDS */
+
+  #featured {
+    font-family: myFirstFont;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 26px;
+    font-family: fantasy;
+    margin-top: 20px;
+  }
+  
+  body {
+    background: #FCFAF9;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
