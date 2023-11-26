@@ -75,7 +75,7 @@ nav a {
 }
 
 h3 {
-  font-size: 23px;
+  font-size: 15px;
 }
 
 
@@ -99,57 +99,6 @@ body {
   font-family: myMainFont;
   text-align: center;
 }
-
-
-
-/* MEDIA QUERY STARTS */ 
-/* THIS DESIGN IS FOR DESKTOP */
-/* media query for desktop starts */
-
-@media screen and (min-width: 768px) {
-
-  /* BANNER CSS STARTS */
-
-#banner-picture-desktop {
-  max-width: 100%;
-  height: auto;
-  display:block;
-}
-
-#banner-picture-mobile {
-  display: none; /* Hide the mobile image by default */
-}
-
-/* BANNER CSS ENDS */
-
-h1 {
-  font-family: myFirstFont;
-  ;
-  font-size: 40px;
-  color: var(--main-color); /* use the color variable*/
-  padding: px;
-}
-
-/* NAVIGATION CSS STARTS */
-
-
-nav a {
-  text-decoration: none;
-  margin: 0 15px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 23px;
-  font-family: myMainFont;
-  font-weight: lighter;
-  line-height: 33px;
-  display: inline-block; /* make it become one line*/
-}
-
-nav a:hover {
-  font-weight: bold;
-  color: var(--main-color);
-}
-
 /* FLEXBOX CSS STARTS */
 
 .featured-posts-container {
@@ -203,6 +152,66 @@ nav a:hover {
   width: 90%; /* make img smaller to center it*/
   margin-top: 10px;
   height: 310px;
+}
+
+/* FLEXBOX CSS ENDS */
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* MEDIA QUERY STARTS */ 
+/* THIS DESIGN IS FOR DESKTOP */
+/* media query for desktop starts */
+
+@media screen and (min-width: 768px) {
+
+  /* BANNER CSS STARTS */
+
+#banner-picture-desktop {
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+
+#banner-picture-mobile {
+  display: none; /* Hide the mobile image by default */
+}
+
+/* BANNER CSS ENDS */
+
+h1 {
+  font-family: myFirstFont;
+  ;
+  font-size: 40px;
+  color: var(--main-color); /* use the color variable*/
+  padding: px;
+}
+
+/* NAVIGATION CSS STARTS */
+
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 23px;
+  font-family: myMainFont;
+  font-weight: lighter;
+  line-height: 33px;
+  display: inline-block; /* make it become one line*/
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+/* FLEXBOX CSS STARTS */
+
+h3 {
+  font-size: 23px;
 }
 
 /* FLEXBOX CSS ENDS */
