@@ -120,11 +120,6 @@ img {
 
 }
   /* ARTICLE CSS ENDS */
-
-
-
-  
-  
     /* ASIDE CSS STARTS */
   
      aside {
@@ -140,6 +135,23 @@ img {
   }
     aside > div {
     opacity: 100%; /* set to 100%, no need to hove */
+    }
+
+    article, aside > div {  /* funfact and other blogs are separated*/
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); /* make the post glow up*/
+      border-radius: 10px; /* corner of the article */
+      padding: 20px; /* brings the text to middle of the white margin*/
+      margin: 20px auto; /*space between the div*/
+      background-color: #fff;   
+    }
+
+  aside p {
+    font-size: 15px;
+    font-style: italic;
+   }
+ 
+  aside img {
+     border-radius: 5%;
     }
 
   /* FOOTER CSS STARTS */
@@ -197,22 +209,17 @@ img {
   article {
     text-align: justify;
     justify-content: center;
-    margin: 20px auto; /* move it to the middle, 20px: top, bottom to 20 pixels, left and right auto*/
-
-  }
-
-  article, aside > div {  /* funfact and other blogs are separated*/
+   /* funfact and other blogs are separated*/
     max-width: 1000px; /* adjust the margine and force the article to stay in the middle*/
-    margin: 20px auto; /* brings the article to middle*/
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); /* make the post glow up*/
-    border-radius: 10px; /* corner of the article */
-    padding: 20px; /* brings the text to middle of the white margin*/
-    background-color: #fff; 
+    margin: 30px auto; /* brings the article to middle*/
     display: inline-block; /* makes article and aside stand on same line*/
-
+    margin-left: 5%;
   }
 
-
+  aside > div {
+    margin-top: auto; /*make it equal height to article*/
+    opacity: 50%;
+  }
 
   /* ASIDE CSS STARTS */
   aside {
@@ -221,28 +228,13 @@ img {
     padding: 10px;
     box-sizing: border-box;
     margin-right: 13%;
-
    }
-
-  aside > div {
-    opacity: 50%;
-  }
 
   aside>div:hover {
     opacity: 100%;
   }
   
 
-  aside p {
-   font-size: 15px;
-   font-style: italic;
-    
-  }
-
-  aside img {
-    border-radius: 5%;
-     
-   }
   /* ASIDE CSS ENDS */
 
 }
