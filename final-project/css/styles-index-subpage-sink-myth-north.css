@@ -3,6 +3,13 @@
   src: url(../Eyesome-Script.otf);
 } /* import the eyesome script font */
 
+h1 {
+  font-family: myFirstFont;
+  ;
+  font-size: 40px;
+  color:#a78875;
+  padding: px;
+}
 
 /* NAVIGATION CSS STARTS */
 nav {
@@ -31,7 +38,7 @@ nav a:hover {
 
 /* BANNER CSS STARTS */
 
-#banner-picture-desktop {
+  #banner-picture-desktop {
     max-width: 100%;
     height: auto;
   }
@@ -192,6 +199,10 @@ img {
   opacity: 100%; /* set to 100%, no need to hove */
   }
 
+  
+
 }
+
+
 
 /* MEDIA QUERY ENDS */
