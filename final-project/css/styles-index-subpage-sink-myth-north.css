@@ -213,7 +213,7 @@ img {
     max-width: 1000px; /* adjust the margine and force the article to stay in the middle*/
     margin: 30px auto; /* brings the article to middle*/
     display: inline-block; /* makes article and aside stand on same line*/
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   aside > div {
@@ -227,7 +227,7 @@ img {
     width: 20%;
     padding: 10px;
     box-sizing: border-box;
-    margin-right: 13%;
+    margin-right: 3%;
    }
 
   aside>div:hover {
