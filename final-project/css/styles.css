@@ -12,10 +12,11 @@
 
 
 :root {
-  --main-color: #a78875; /* Replace with your desired color value */
+  --main-color: #a78875; 
   --background-color: #FCFAF9;
   --white-color: #fff;
 }
+/* DECLARE VARIABLES ENDS */
 
 
 h1 {
