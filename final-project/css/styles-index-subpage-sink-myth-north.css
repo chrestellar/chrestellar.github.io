@@ -166,7 +166,7 @@ img {
 
   /* media query for mobile starts */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1800px) {
 
   #banner-picture-desktop {
     display: none; /* hide desktop banner */
@@ -174,9 +174,9 @@ img {
   #banner-picture-mobile {
   display: block; /* show mobile banner */
   max-width: 100%;
-
-
+  margin: auto auto;
   }
+
   nav a {
     display: flex;
     justify-content: center;
@@ -216,31 +216,6 @@ img {
   /* media query for mobile ends */
 
 
-    /* NEED FIXING*/
-
-  @media screen and (min-width: 600px) and (max-width: 768px) {
-    /* ASIDE CSS STARTS */
-
-  aside {
-    width: 45%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-right: 13%;
-    display: inline-block; /* Set the aside to inline-block */
-
-   }
-
-   article, aside > div {  /* funfact and other blogs are separated*/
-    max-width: 45%; /* adjust the margine and force the article to stay in the middle*/
-    margin: 30px auto; /* brings the article to middle*/
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); /* make the post glow up*/
-    border-radius: 10px; /* corner of the article */
-    padding: 20px; /* brings the text to middle of the white margin*/
-    background-color: #fff; 
-    display: inline-block; /* Set both article and aside to inline-block */
-    vertical-align: top; /* Align them at the top */
-  }
-  }
   /* ASIDE CSS ENDS */
 
 
