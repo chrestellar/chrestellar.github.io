@@ -92,9 +92,7 @@ body {
 }
 
 .first-block-container-inner, .second-block-container-inner, 
-.third-block-container-inner, .fourth-block-container-inner,
-.fifth-block-container-inner,
-.sixth-block-container-inner {
+.third-block-container-inner {
   background-color: #F2EFEC;
   width: 95%;
   height: 95%;
@@ -107,9 +105,7 @@ body {
 .first-block-container-inner img:hover, 
 .second-block-container-inner img:hover, 
 .third-block-container-inner img:hover,
-.fourth-block-container-inner img:hover,
-.fifth-block-container-inner img:hover,
-.sixth-block-container-inner img:hover  {
+ {
   opacity: 70%;
 }
 
@@ -118,8 +114,7 @@ body {
 
 /* adjust pictures of all 3 squares */ 
 .first-block-content img, .second-block-content img, 
-.third-block-content img, .fourth-block-content img,
-.fifth-block-content img, .sixth-block-content img {
+.third-block-content img {
   width: 90%; /* make img smaller to center it*/
   margin-top: 10px;
   height: 310px;
