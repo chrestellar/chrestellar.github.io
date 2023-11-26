@@ -97,7 +97,7 @@ a {
 
   /* dont have featured */
 
-  #funfact {
+  #funfact, #where-next {
     font-size: 30px;
     font-family: myFirstFont;
   }
