@@ -86,10 +86,13 @@ h3 {
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 22px;
   margin-top: 10px;
   font-family: myMainFont;
+}
 
+.square-title-index {
+  font-size: 19px;
 }
 
 body {
