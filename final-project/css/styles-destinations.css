@@ -126,3 +126,25 @@ body {
 }
 
 /* FLEXBOX CSS ENDS */
+
+/* MEDIA QUERY STARTS */
+
+/* media query for mobile starts */
+
+@media screen and (max-width: 600px) {
+
+  #banner-picture-desktop {
+    display: none; /* hide desktop banner */
+  }
+  #banner-picture-mobile {
+  display: block; /* show mobile banner */
+  max-width: 100%;
+  }
+  nav a {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+  }
+
+}
+/* MEDIA QUERY ENDS */

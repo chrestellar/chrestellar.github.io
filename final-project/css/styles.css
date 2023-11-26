@@ -164,6 +164,7 @@ p {
 /* FLEXBOX CSS ENDS */
 
 /* MEDIA QUERY STARTS */
+
 /* media query for mobile starts */
 
 @media screen and (max-width: 600px) {
@@ -173,10 +174,13 @@ p {
   }
   #banner-picture-mobile {
   display: block; /* show mobile banner */
+  max-width: 100%;
+
   }
   nav a {
     display: flex;
     justify-content: center;
+    font-family: fantasy;
   }
 
 }
