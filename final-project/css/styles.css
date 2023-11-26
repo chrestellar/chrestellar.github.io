@@ -53,9 +53,10 @@ nav a {
   font-size: 20px;
 }
 
-nav a:hover {
+nav a:hover, a:hover {
   font-weight: bold;
   color: var(--main-color);
+  text-decoration: underline;
 }
 
 /* NAVIGATION CSS ENDS */
@@ -73,14 +74,27 @@ max-width: 100%;
 
 /* BANNER CSS ENDS */
 
-h3 {
-  font-size: 15px;
+body {
+  background-color: var(--background-color);
+  color: rgb(0, 0, 0);
+  font-family: myMainFont;
+  text-align: center;
 }
 
+h3 {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* MAIN CSS STARTS */
 
 #featured {
   font-family: myFirstFont;
-  color: black;
   font-size: 30px;
   text-align: center;
 }
@@ -88,19 +102,13 @@ h3 {
 h3 {
   font-size: 22px;
   margin-top: 10px;
-  font-family: myMainFont;
 }
 
 .square-title-index {
   font-size: 19px;
 }
 
-body {
-  background-color: var(--background-color);
-  color: rgb(0, 0, 0);
-  font-family: myMainFont;
-  text-align: center;
-}
+
 /* FLEXBOX CSS STARTS */
 
 .featured-posts-container {
@@ -166,7 +174,7 @@ body {
 /* THIS DESIGN IS FOR DESKTOP */
 /* media query for desktop starts */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
 
   /* BANNER CSS STARTS */
 
@@ -211,9 +219,10 @@ nav a:hover {
 }
 
 /* FLEXBOX CSS STARTS */
-.square-title-index {
+.square-title-index {  /* legends title increase size a bit */
   font-size: 22px;
 }
+
 h3 {
   font-size: 23px;
 }
