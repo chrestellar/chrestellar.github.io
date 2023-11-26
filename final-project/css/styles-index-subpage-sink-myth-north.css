@@ -131,3 +131,48 @@ img {
 
 
   /* ASIDE CSS ENDS */
+
+  /* MEDIA QUERY STARTS */
+
+  /* media query for mobile starts */
+
+@media screen and (max-width: 600px) {
+
+  #banner-picture-desktop {
+    display: none; /* hide desktop banner */
+  }
+  #banner-picture-mobile {
+  display: block; /* show mobile banner */
+  max-width: 100%;
+
+
+  }
+  nav a {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  article {
+    text-align: justify;
+    justify-content: center;
+    margin: 20px auto; /* move it to the middle, 20px: top, bottom to 20 pixels, left and right auto*/
+
+  }
+
+  aside {
+    display: block;
+    /* Block-level boxes generally start on a new line 
+    and stretch the full width of their containing element, 
+    forcing subsequent content to appear below them. */
+    justify-content: center;
+    float: none; /* Remove the float */
+    width: 100%; /* Occupy the full width of the container */
+    margin: 20px auto; /* Center the aside */
+}
+/* MEDIA QUERY ENDS */
