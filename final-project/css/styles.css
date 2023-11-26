@@ -176,12 +176,17 @@ p {
   display: block; /* show mobile banner */
   max-width: 100%;
 
+
   }
   nav a {
     display: flex;
     justify-content: center;
     font-family: fantasy;
+    font-size: 20px;
   }
 
+  h3 {
+    font-size: 23px;
+  }
 }
 /* MEDIA QUERY ENDS */
