@@ -4,7 +4,7 @@
 } /* import the eyesome script font */
 
 
-/* NAVIGATION CSS STARTS */ 
+/* NAVIGATION CSS STARTS */
 nav {
   background-color: #FCFAF9;
   text-align: center;
@@ -12,6 +12,7 @@ nav {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   justify-content: center;
 }
+
 
 nav a {
   color: #fff;
@@ -28,25 +29,46 @@ nav a:hover {
   color: #a78875;
 }
 
-.burger-menu {
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
+/* NAVIGATION CSS ENDS */
+
+/* BANNER CSS STARTS */
+
+#banner-picture-desktop {
+  max-width: 100%;
+  height: auto;
 }
 
-/* NAVIGATION CSS ENDS */
+#banner-picture-mobile {
+  display: none; /* Hide the mobile image by default */
+}
+
+/* BANNER CSS ENDS */
 
 
 
 /* MAIN CSS STARTS */
+
+#featured {
+  font-family: myFirstFont;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+  font-family: fantasy;
+  margin-top: 20px;
+}
+
 body {
   background: #FCFAF9;
   color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+
 
 main {
   text-align: center;
@@ -78,6 +100,9 @@ h3 {
 p {
   font-size: 15px;
 }
+
+/* MAIN CSS ENDS */
+
 
 /* FLEXBOX CSS STARTS */
 
