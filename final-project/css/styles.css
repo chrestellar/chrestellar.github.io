@@ -18,6 +18,7 @@
 }
 /* DECLARE VARIABLES ENDS */
 
+/* THIS DESIGN IS FOR MOBILE */
 
 h1 {
   font-family: myFirstFont;
@@ -56,17 +57,27 @@ nav a:hover {
 /* NAVIGATION CSS ENDS */
 
 /* BANNER CSS STARTS */
-
 #banner-picture-desktop {
-  max-width: 100%;
-  height: auto;
+  display: none; /* hide desktop banner */
 }
-
 #banner-picture-mobile {
-  display: none; /* Hide the mobile image by default */
+display: block; /* show mobile banner */
+max-width: 100%;
+
+
 }
 
-/* BANNER CSS ENDS */
+/* BANNER CSS ends */
+nav a {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
 
 #featured {
   font-family: myFirstFont;
@@ -89,6 +100,55 @@ body {
   text-align: center;
 }
 
+
+
+/* MEDIA QUERY STARTS */ 
+/* THIS DESIGN IS FOR DESKTOP */
+/* media query for desktop starts */
+
+@media screen and (min-width: 768px) {
+
+  /* BANNER CSS STARTS */
+
+#banner-picture-desktop {
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+
+#banner-picture-mobile {
+  display: none; /* Hide the mobile image by default */
+}
+
+/* BANNER CSS ENDS */
+
+h1 {
+  font-family: myFirstFont;
+  ;
+  font-size: 40px;
+  color: var(--main-color); /* use the color variable*/
+  padding: px;
+}
+
+/* NAVIGATION CSS STARTS */
+
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 23px;
+  font-family: myMainFont;
+  font-weight: lighter;
+  line-height: 33px;
+  display: inline-block; /* make it become one line*/
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: var(--main-color);
+}
 
 /* FLEXBOX CSS STARTS */
 
@@ -146,30 +206,5 @@ body {
 }
 
 /* FLEXBOX CSS ENDS */
-
-/* MEDIA QUERY STARTS */
-
-/* media query for mobile starts */
-
-@media screen and (max-width: 600px) {
-
-  #banner-picture-desktop {
-    display: none; /* hide desktop banner */
-  }
-  #banner-picture-mobile {
-  display: block; /* show mobile banner */
-  max-width: 100%;
-
-
-  }
-  nav a {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 23px;
-  }
 }
 /* MEDIA QUERY ENDS */
