@@ -3,7 +3,13 @@
   src: url(../Eyesome-Script.otf);
 } /* import the eyesome script font */
 
-
+h1 {
+  font-family: myFirstFont;
+  ;
+  font-size: 40px;
+  color:#a78875;
+  padding: px;
+}
 /* NAVIGATION CSS STARTS */
 nav {
   background-color: #FCFAF9;
