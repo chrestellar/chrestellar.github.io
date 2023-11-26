@@ -108,7 +108,6 @@ img {
     padding: 10px;
     box-sizing: border-box;
     margin-right: 13%;
-
    }
 
   aside > div {
@@ -188,10 +187,5 @@ img {
     
 }
 
-  aside > div {
-  opacity: 100%; /* set to 100%, no need to hove */
-  }
-
-}
 
 /* MEDIA QUERY ENDS */

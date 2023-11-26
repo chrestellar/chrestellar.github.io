@@ -13,7 +13,6 @@ nav {
   justify-content: center;
 }
 
-
 nav a {
   color: #fff;
   text-decoration: none;
@@ -22,8 +21,8 @@ nav a {
   text-decoration: none;
   font-size: 23px;
   font-family: fantasy;
+  line-height: 33px;
 }
-
 nav a:hover {
   font-weight: bold;
   color: #a78875;
@@ -103,7 +102,7 @@ body {
 
 .first-block-container-inner img:hover, 
 .second-block-container-inner img:hover, 
-.third-block-container-inner img:hover,
+.third-block-container-inner img:hover
  {
   opacity: 70%;
 }
