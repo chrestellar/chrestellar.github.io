@@ -25,9 +25,20 @@
 
 h1 {
   font-family: myFirstFont;
+  ;
   font-size: 40px;
   color: var(--main-color); /* use the color variable*/
-  padding: px;
+}
+
+
+header h1 {
+  margin-bottom: 0px; /* or use padding-bottom: 0; */
+  margin-top: 20px; /* or use padding-bottom: 0; */
+}
+
+
+header hr {
+  margin-top: 10px; /* Adjust the value to move the <hr> closer to <h1> */
 }
 
 /* NAVIGATION CSS STARTS */
@@ -97,7 +108,7 @@ a {
 
   /* dont have featured */
 
-  #funfact, #where-next {
+  #funfact, #where-next, #exclusive {
     font-size: 30px;
     font-family: myFirstFont;
   }
