@@ -14,7 +14,7 @@
   :root {
     --main-color: #a78875; 
     --background-color: #FCFAF9;
-    --white-color: #fff;
+    --white-color: white;
   }
   /* DECLARE VARIABLES ENDS */
   /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
@@ -130,8 +130,6 @@
         text-align: center;
       }
 
-
-
       /* GRID CSS ENDS */
 
 
@@ -172,8 +170,12 @@
 
           /* GRID CSS STARTS */
           .grid-container-best-choice {
-            grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-            
+            grid-template-columns: repeat(3, 1fr); 
+            /* 3:  repeat the pattern three times makes 
+            three columns with equal width */
+            /* 1fr means that each column should take an equal 
+            fraction of the available space. "fractional unit," 
+            and it divides the available space into equal parts. */
             gap: 20px; /* Gap between grid items */
         }
 
