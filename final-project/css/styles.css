@@ -188,6 +188,40 @@ h3 {
     }
     /* FOOTER CSS ENDS */
 
+
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* CONTACT PAGE CSS STARTS*/
+form {  /* funfact and other blogs are separated*/
+  border-radius: 10px; /* corner of the article */
+  padding: 20px; /* brings the text to middle of the white margin*/
+  margin: 20px auto; /*space between the div*/
+  max-width: 400px; /* Set a maximum width for the form */
+  box-shadow: 0 0 10px #aaa;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 50%; /* Make the name and email textboxes smaller */
+  height: 10%;
+  padding: 4px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#message {
+  width: 50%; /* Make the name and email textboxes smaller */
+  height: 200px;
+  padding: 4px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+/* CONTACT PAGE CSS ENDS*/
+
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
@@ -250,5 +284,16 @@ h3 {
 }
 
 /* FLEXBOX CSS ENDS */
+
+
+/* CONTACT PAGE CSS STARTS*/
+
+form {
+  max-width: 80%;
 }
+/* CONTACT PAGE CSS ENDS*/
+
+}
+
+
 /* MEDIA QUERY ENDS */
