@@ -1,0 +1,39 @@
+body {
+  color: white; 
+  margin: 20px; /* Remove default margin */
+  display: flex;
+  background-color: #000000; /* Set the background color */
+  font-family: fantasy;
+}
+
+h1 {
+  font-weight: white;
+  text-align: center;
+}
+
+.image-container-lapland {
+  position: relative;
+  text-align: center; /* Center the text within the container */
+}
+
+#hiensnow {
+  opacity: 0.4;
+  width: 100%; /* Make the image fill exactly the container, otherwise it will fill out */
+  display: block; /*By default, an <img> element is an inline-level element.
+  Setting display: block; on an image makes it behave like a block-level element. it's done when you want the image to take up the full width of its container and start on a new line. In this case, it ensures that the image (#hiensnow) takes up the full width of its container (image-container-lapland).
+  */
+}
+
+#hiensnow:hover {
+  opacity: 0.8;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw; /* Set font size using vw unit for responsiveness */
+  color: white;
+  font-weight: bold;
+}

@@ -51,16 +51,17 @@
   }
   
   nav a {
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0 15px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+    color: var(--main-color);
     font-family: myMainFont;
     font-weight: lighter;
     line-height: 33px;
     display: flex;
     justify-content: center;
     font-size: 20px;
+    font-weight: bold;
+  
   }
   
   nav a:hover, a:hover {
