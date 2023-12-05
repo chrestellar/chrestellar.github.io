@@ -17,7 +17,7 @@ let message = document.getElementById("message").value;
    formDataArray.push(formData);
 
    // Log the array to the console
-   console.log("Form data array:", formDataArray);
+   console.log("The data result:", formDataArray);
 
    // Display a confirmation message
    alert("Your information is saved. You will hear from me soon!");
