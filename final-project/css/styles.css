@@ -91,7 +91,9 @@ body {
 
 h3 {
   font-size: 15px;
-  text-decoration: none;
+  text-decoration: underline;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 a {
@@ -116,6 +118,32 @@ h3 {
   font-size: 19px;
 }
 
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+ /* ABOUT ME - GRID CSS STARTS */
+ .grid-container-about-me {
+  display: grid;
+  gap: 20px; /* Gap between grid items */
+  max-width: 100%;
+
+}
+
+/* Style for grid items */
+.grid-item {
+  background-color: #EFF0EA;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* ABOUT ME - GRID CSS ENDS */
+
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
 
 /* FLEXBOX CSS STARTS */
 
@@ -229,7 +257,7 @@ input[type="email"] {
 
   /* BANNER CSS STARTS */
 
-#banner-picture-desktop {
+#banner-picture-desktop, #banner-about {
   max-width: 100%;
   height: auto;
   display:block;
@@ -270,6 +298,21 @@ nav a:hover {
   text-decoration: underline;
 
 }
+
+
+/* ABOUT ME - GRID CSS STARTS */
+.grid-container-about-me {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    /* 4:  repeat the pattern 4 times makes 
+    4 columns with equal width */
+    /* 1fr means that each column should take an equal 
+    fraction of the available space. "fractional unit," 
+    and it divides the available space into equal parts. */
+    gap: 20px; /* Gap between grid items */
+  }
+  /* ABOUT ME - GRID CSS ENDS */
+
 
 /* FLEXBOX CSS STARTS */
 .square-title-index {  /* legends title increase size a bit */
