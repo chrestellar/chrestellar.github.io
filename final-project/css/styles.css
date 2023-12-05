@@ -103,7 +103,7 @@ a {
 
 /* MAIN CSS STARTS */
 
-#featured {
+.featured {
   font-family: myFirstFont;
   font-size: 30px;
   text-align: center;
