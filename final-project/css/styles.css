@@ -103,7 +103,7 @@ a {
 
 /* MAIN CSS STARTS */
 
-.featured {
+#featured {
   font-family: myFirstFont;
   font-size: 30px;
   text-align: center;
@@ -122,12 +122,10 @@ h3 {
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
 
- /* ABOUT ME - GRID CSS STARTS */
+ /* ABOUT ME - MOBILE GRID CSS STARTS */
  .grid-container-about-me {
   display: grid;
   gap: 20px; /* Gap between grid items */
-  max-width: 100%;
-
 }
 
 /* Style for grid items */
@@ -135,10 +133,9 @@ h3 {
   background-color: #EFF0EA;
   padding: 20px;
   text-align: center;
-
 }
 
-/* ABOUT ME - GRID CSS ENDS */
+/* ABOUT ME - MOBILE GRID CSS ENDS */
 
 
 /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
@@ -300,18 +297,18 @@ nav a:hover {
 }
 
 
-/* ABOUT ME - GRID CSS STARTS */
+/* ABOUT ME - DESKTOP GRID CSS STARTS */
 .grid-container-about-me {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    /* 4:  repeat the pattern 4 times makes 
-    4 columns with equal width */
-    /* 1fr means that each column should take an equal 
-    fraction of the available space. "fractional unit," 
-    and it divides the available space into equal parts. */
-    gap: 20px; /* Gap between grid items */
-  }
-  /* ABOUT ME - GRID CSS ENDS */
+  grid-template-columns: repeat(3, 1fr); 
+  /* 3:  repeat the pattern three times makes 
+  three columns with equal width */
+  /* 1fr means that each column should take an equal 
+  fraction of the available space. "fractional unit," 
+  and it divides the available space into equal parts. */
+  gap: 20px; /* Gap between grid items */
+}
+
+  /* ABOUT ME - DESKTOP GRID CSS ENDS */
 
 
 /* FLEXBOX CSS STARTS */
