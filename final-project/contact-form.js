@@ -16,6 +16,9 @@ let message = document.getElementById("message").value;
    // Add the form data to the array
    formDataArray.push(formData);
 
+   // Clear form fields
+   document.getElementById("myForm").reset();
+   
    // Log the array to the console
    console.log("The data result:", formDataArray);
 
