@@ -238,7 +238,8 @@ img {
     float: right;
     width: 20%;
     padding: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* element's total size won't 
+    change when you add padding or a border. */
     margin-right: 3%;
    }
 
