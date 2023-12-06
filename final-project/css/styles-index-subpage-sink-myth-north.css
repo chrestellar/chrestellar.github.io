@@ -112,6 +112,7 @@ a {
   #funfact, #where-next, #exclusive {
     font-size: 30px;
     font-family: myFirstFont;
+    text-align: center;
   }
   
   h3 {
